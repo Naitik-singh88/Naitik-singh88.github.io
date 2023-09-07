@@ -1,0 +1,431 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+  /* border box mean the the area of the
+  border will be counted in area ( height , width )
+  of the box (box) */
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  height: 5rem;
+  background-color: #212121;
+  width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0px;
+}
+
+ /* B1 (logo) */
+
+.nav-logo{
+  height: 3.50rem;
+  width: 6.50rem;
+  
+}
+
+.logo{
+  background-image: url("Bl_logo.png");
+  height: 3rem;
+  width: 6rem;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+ /* B2 (location) */
+
+.LocX{
+  height: 2.50rem;
+  width: 6rem;
+}
+
+.a{
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.h{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 1.50rem;
+}
+
+ /* B3 (search bar ) */
+
+.search_bar{
+  color: black;
+  height: 3rem;
+  width: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.search_bar:hover {
+  border: 0.25rem solid orange;
+  border-radius: 0.50rem;
+}
+
+.selec{
+  color: black;
+  height: 3rem;
+  width: 3rem;
+  font-weight: 600;
+  border-top-left-radius: 0.25rem; 
+  border-bottom-left-radius: 0.25rem;
+  background-color: #d2d4d2;
+  
+}
+
+.search{
+  height: 2.65rem;
+  width: 100%;
+  color: black;
+}
+
+.S_icon{
+  background-color: #01DAD8;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 0.25rem; 
+  border-bottom-right-radius: 0.25rem;
+}
+
+ /* B4 ( language ) */
+
+.language{
+  height: 2.50rem;
+  width: 4rem;
+}
+
+.lang{
+  background: transparent;
+  height: 2.50rem;
+  width: 4rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+ /* B5 ( sign in ) */
+
+.sign_in{
+  height: 3.50rem;
+  width: 5rem;
+}
+
+.signin_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2.50rem;
+  margin-left: 8px;
+}
+
+.signin_txt{
+  height: 1rem;
+  width: 4rem;
+  font-weight: 600;
+}
+
+ /* B6 ( R & O ) */
+
+.RO{
+  width: 6rem;
+  height: 4rem;
+}
+
+.RO:hover{
+  border: 0.10rem solid cyan;
+}
+
+.R{
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  top: 12px;
+}
+
+.O{
+  font-size: 1.25rem;
+  font-weight: 600;
+  position: relative;
+  top: 12px;
+}
+ 
+ /* B7 ( cart ) */ 
+
+.nav_cart{
+  height: 3rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_cart i{
+  font-size: 2rem;
+}
+
+.cart{
+  font-size: 1.50rem;
+  font-weight: 400;
+  margin-left: 0.10rem;
+  align-self: last baseline;
+}
+  
+
+        /* nav bar ends */
+      
+      /* nav panel starts */
+
+
+.nav_panel{
+  height: 2.75rem;
+  width: 80rem;
+  background-color: #2C2C30;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.panel_txt a {
+  margin-left: 1.25rem;
+}
+
+
+.menu i {
+  font-size: 1.25rem;
+  margin-right: 0.50rem;
+}
+
+.menu p {
+  font-weight: 600;
+}
+
+.all{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+
+
+        /* nav panel ends */
+ 
+    /* main body section starts */
+
+        /* main bod1 */
+
+
+
+.main_bod1{
+  width: 80rem;
+  height: 35rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: backchange 10s infinite;
+}
+
+
+@keyframes backchange {
+  0% {
+    background-image: url(back1.png);
+  }
+  50% {
+    background-image: url(back2.png);
+  }
+  100% {
+    background-image: url(back3.png);
+  }
+}
+
+
+.bod1_txt{
+  background-color: #2C2C30;
+  height: 2rem;
+  width: 77rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.bod1_txt a{
+  color: aqua;
+} 
+
+
+
+        /* main bod2 */
+
+
+
+.main_bod2{
+  background-color: #2C2C30;
+  width: 80rem;
+  height: 68rem;
+  
+}
+
+
+.xd_1{
+  height: 32rem;
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+}
+
+.xd_2{
+  height: 32rem;
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Container{
+  background-color: black;
+  width: 24rem;
+  height: 32rem;
+}
+
+.txt{
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.80rem;
+  margin-left: 2rem;
+  margin-top: 1.30rem;
+  margin-bottom: 0.50rem;
+  width: 20rem;
+  
+  
+}
+
+.img{
+  width: 20rem;
+  height: 27rem;
+  margin-left: 2rem;
+  background-size: cover;
+}
+
+#C1_img{
+  background-image: url("Elec.jpg")
+}
+
+#C2_img{
+  background-image: url("S_S.jpg")
+}
+
+#C3_img{
+  background-image: url("Essentials.jpg")
+}
+
+#C4_img{
+  background-image: url("Back_light.jpg");
+}
+
+#C5_img{
+  background-image: url("Beu.jpg");
+}
+
+
+#C2 {
+  margin-left: 2.50rem;
+}
+
+#C3{
+  margin-left: 2.50rem;
+}
+
+#C5{
+  margin-left: 2.50rem;
+}
+
+
+     /* C6 ( special case */
+
+
+.C6_Container{
+  
+  width: 24rem;
+  height: 32rem;
+}  
+  
+
+#C6_img{
+  background-image: url("Amazon2.jpg");
+  background-size: cover;
+  width: 24rem;
+  height: 18rem;
+}
+
+#C6{
+  margin-left: 2.50rem;
+}
+
+.C6_signin{
+  height: 12rem;
+  width: 24rem;
+  background-color: black;
+  margin-top: 2rem;
+} 
+
+.C6_signin button{
+  background-color: #FCCA01;
+  border-radius: 2rem;
+  width: 22rem;
+  height: 4rem;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-left: 1.25rem;
+}
+
+.C6_txt{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 1.25rem;
+  margin-top: 2rem;
+}
+
+
+     /* main body ends  */
+  
+     /* footer starts  */
+
+.BTT{
+  width: 80rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3E4A6B;
+}
+
+.footer_txt{
+  width: 80rem;
+  height: 50rem;
+  background-color: #3B4562;
+  display: flex;
+}
+
+.txt1 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
